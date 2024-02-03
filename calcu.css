@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(167, 95, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calcu{
+    padding: 40px 25px;
+    line-height: 50px;
+    height: 580px;
+    width: 430px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(49, 48, 48, 0.6);
+}
+
+.calcu form input{
+    padding: 30px;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.7),
+                -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
+
+.calcu form #dis .sc{
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    height: 70px;
+    width: 380px;
+}
+
+.calcu form #ac{
+    width: 150px;
+    text-align: end;
+}
+
+.calcu form #equal{
+    width: 150px;
+    text-align: end;
+}
+
+.calcu form #dis input{
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    margin-top: 10px;
+    margin: 0px;
+    text-align: right;
+    flex: 1;
+    font-size:40px;
+}
+
+.calcu .op{
+    color: rgb(138, 138, 243);
+    text-shadow: 0px 0px 10px rgba(138, 138, 243, 0.8),
+    0px 0px 10px rgba(138, 138, 243, 0.3);
+}
+
+.calcu .num{
+    color: rgb(149, 239, 255);
+    text-shadow: 0px 0px 10px rgba(149, 239, 255, 0.8),
+    0px 0px 10px rgba(149, 239, 255, 0.3);
+}
+
